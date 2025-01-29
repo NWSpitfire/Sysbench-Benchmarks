@@ -103,9 +103,12 @@ Adjust file-num and file-total-size to match system desired benchmark. Or remove
 
 ## CPU
 
-| System | CPU/GPU | Threads | Events Per Second | Latency [ms] (avg) | Latency [ms] (max/min) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| HPE DL360 GEN10 (PVE8 VM) | Intel Xeon Bronze 6104 | 4 | 2317.56 | 1.73 | 4.95/1.71 |
+| System | CPU/GPU | Threads | Guest OS | Events Per Second | Latency [ms] (avg) | Latency [ms] (max/min) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| HPE DL360 GEN10 (PVE8 VM) | Intel Xeon Bronze 6104 | 4 | Ubuntu Server 22.04 LTS | 2317.56 | 1.73 | 4.95/1.71 |
+| HPE DL360 GEN10 (PVE8 VM) | Intel Xeon Gold 6130 | 20 | Ubuntu Server 22.04 LTS | 521830 | 1.15 | 5.92/1.04 |
+| HPE DL360 GEN10 (PVE8 VM) | Intel Xeon Gold 6130 | 4 | Ubuntu Server 22.04 LTS | 139133 | 0.86 | 1.67/0.83 |
+| HPE DL360 GEN10 (PVE8 VM) | Intel Xeon Gold 6130 | 2 | Ubuntu Server 22.04 LTS | 71378 | 0.84 | 1.50/0.78 |
 
 ## Memory
 
